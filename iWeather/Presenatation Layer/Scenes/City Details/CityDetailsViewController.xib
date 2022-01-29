@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CityDetailsViewController" customModule="iWeather" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="ZhZ-6v-xEA" id="ieK-aF-ggJ"/>
+                <outlet property="titleLabel" destination="0Vw-W4-jEw" id="Gam-vS-HoM"/>
+                <outlet property="view" destination="0OT-fR-YXG" id="zWt-zr-i5K"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="0OT-fR-YXG">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_galaxy" translatesAutoresizingMaskIntoConstraints="NO" id="n8v-jb-dyD">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vw-W4-jEw">
+                    <rect key="frame" x="156.5" y="61" width="101.5" height="48"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZhZ-6v-xEA">
+                    <rect key="frame" x="0.0" y="139" width="414" height="757"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="9aA-7M-o4a"/>
+                        <outlet property="delegate" destination="-1" id="zOA-sx-TlM"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="95v-95-oiS"/>
+            <color key="backgroundColor" red="0.032424382869999997" green="0.02458220907" blue="0.1215772703" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZhZ-6v-xEA" secondAttribute="trailing" id="EB4-tM-66D"/>
+                <constraint firstAttribute="bottom" secondItem="n8v-jb-dyD" secondAttribute="bottom" id="Jwy-bV-jwX"/>
+                <constraint firstItem="0Vw-W4-jEw" firstAttribute="centerX" secondItem="0OT-fR-YXG" secondAttribute="centerX" id="NCb-sB-0Xw"/>
+                <constraint firstItem="n8v-jb-dyD" firstAttribute="top" secondItem="0OT-fR-YXG" secondAttribute="top" id="akw-eS-oFz"/>
+                <constraint firstItem="ZhZ-6v-xEA" firstAttribute="leading" secondItem="95v-95-oiS" secondAttribute="leading" id="dzv-n3-vjr"/>
+                <constraint firstItem="n8v-jb-dyD" firstAttribute="trailing" secondItem="95v-95-oiS" secondAttribute="trailing" id="hSq-PM-bAf"/>
+                <constraint firstItem="ZhZ-6v-xEA" firstAttribute="top" secondItem="0Vw-W4-jEw" secondAttribute="bottom" constant="30" id="rAE-F4-n9u"/>
+                <constraint firstItem="0Vw-W4-jEw" firstAttribute="top" secondItem="95v-95-oiS" secondAttribute="top" constant="17" id="rhb-8e-7Yq"/>
+                <constraint firstItem="n8v-jb-dyD" firstAttribute="leading" secondItem="95v-95-oiS" secondAttribute="leading" id="s4z-hz-8IB"/>
+                <constraint firstAttribute="bottom" secondItem="ZhZ-6v-xEA" secondAttribute="bottom" id="tPo-QZ-T66"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_galaxy" width="1000" height="1500"/>
+    </resources>
+</document>
