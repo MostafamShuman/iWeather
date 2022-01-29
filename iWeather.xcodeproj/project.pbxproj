@@ -23,6 +23,7 @@
 		F3EB800927A5E91A00183DF3 /* Decodable+Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB800827A5E91A00183DF3 /* Decodable+Parse.swift */; };
 		F3EB800C27A5E94D00183DF3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB800B27A5E94D00183DF3 /* AppConstants.swift */; };
 		F3EB801127A5E98200183DF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3EB801327A5E98200183DF3 /* Localizable.strings */; };
+		F3EB801627A5EB0A00183DF3 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB801527A5EB0A00183DF3 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F3EB800827A5E91A00183DF3 /* Decodable+Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decodable+Parse.swift"; sourceTree = "<group>"; };
 		F3EB800B27A5E94D00183DF3 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		F3EB801227A5E98200183DF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F3EB801527A5EB0A00183DF3 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		F3EB7FF327A5E73100183DF3 /* Data Layer */ = {
 			isa = PBXGroup;
 			children = (
+				F3EB801427A5EAF700183DF3 /* Model */,
 			);
 			path = "Data Layer";
 			sourceTree = "<group>";
@@ -218,6 +221,14 @@
 				F3EB801327A5E98200183DF3 /* Localizable.strings */,
 			);
 			path = Localizable;
+			sourceTree = "<group>";
+		};
+		F3EB801427A5EAF700183DF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB801527A5EB0A00183DF3 /* City.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +334,7 @@
 			files = (
 				F3EB7FC627A5E07200183DF3 /* ViewController.swift in Sources */,
 				F3EB800927A5E91A00183DF3 /* Decodable+Parse.swift in Sources */,
+				F3EB801627A5EB0A00183DF3 /* City.swift in Sources */,
 				F3EB7FFF27A5E7F600183DF3 /* NetworkError.swift in Sources */,
 				F3EB800C27A5E94D00183DF3 /* AppConstants.swift in Sources */,
 				F3EB800727A5E91000183DF3 /* UIView+IBDesignable.swift in Sources */,
