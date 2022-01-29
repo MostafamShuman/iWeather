@@ -40,6 +40,9 @@
 		F3EB803C27A5F14B00183DF3 /* WeatherLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB803A27A5F14B00183DF3 /* WeatherLandingViewController.swift */; };
 		F3EB803D27A5F14B00183DF3 /* WeatherLandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EB803B27A5F14B00183DF3 /* WeatherLandingViewController.xib */; };
 		F3EB803F27A5F16600183DF3 /* WeatherLandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB803E27A5F16600183DF3 /* WeatherLandingViewModel.swift */; };
+		F3EB804327A5F23700183DF3 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB804127A5F23700183DF3 /* CitiesViewController.swift */; };
+		F3EB804427A5F23700183DF3 /* CitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3EB804227A5F23700183DF3 /* CitiesViewController.xib */; };
+		F3EB804627A5F24A00183DF3 /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB804527A5F24A00183DF3 /* CitiesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +89,9 @@
 		F3EB803A27A5F14B00183DF3 /* WeatherLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLandingViewController.swift; sourceTree = "<group>"; };
 		F3EB803B27A5F14B00183DF3 /* WeatherLandingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherLandingViewController.xib; sourceTree = "<group>"; };
 		F3EB803E27A5F16600183DF3 /* WeatherLandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLandingViewModel.swift; sourceTree = "<group>"; };
+		F3EB804127A5F23700183DF3 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		F3EB804227A5F23700183DF3 /* CitiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CitiesViewController.xib; sourceTree = "<group>"; };
+		F3EB804527A5F24A00183DF3 /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,6 +344,7 @@
 		F3EB803827A5F0FD00183DF3 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				F3EB804027A5F21800183DF3 /* Cities List */,
 				F3EB803927A5F10E00183DF3 /* WeatherLanding */,
 			);
 			path = Scenes;
@@ -351,6 +358,16 @@
 				F3EB803B27A5F14B00183DF3 /* WeatherLandingViewController.xib */,
 			);
 			path = WeatherLanding;
+			sourceTree = "<group>";
+		};
+		F3EB804027A5F21800183DF3 /* Cities List */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB804527A5F24A00183DF3 /* CitiesViewModel.swift */,
+				F3EB804127A5F23700183DF3 /* CitiesViewController.swift */,
+				F3EB804227A5F23700183DF3 /* CitiesViewController.xib */,
+			);
+			path = "Cities List";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3EB803D27A5F14B00183DF3 /* WeatherLandingViewController.xib in Resources */,
+				F3EB804427A5F23700183DF3 /* CitiesViewController.xib in Resources */,
 				F3EB7FCE27A5E07300183DF3 /* LaunchScreen.storyboard in Resources */,
 				F3EB801127A5E98200183DF3 /* Localizable.strings in Resources */,
 				F3EB7FCB27A5E07300183DF3 /* Assets.xcassets in Resources */,
@@ -470,9 +488,11 @@
 				F3EB801627A5EB0A00183DF3 /* City.swift in Sources */,
 				F3EB803C27A5F14B00183DF3 /* WeatherLandingViewController.swift in Sources */,
 				F3EB801A27A5EB9F00183DF3 /* RequestBuilder.swift in Sources */,
+				F3EB804627A5F24A00183DF3 /* CitiesViewModel.swift in Sources */,
 				F3EB7FFF27A5E7F600183DF3 /* NetworkError.swift in Sources */,
 				F3EB800C27A5E94D00183DF3 /* AppConstants.swift in Sources */,
 				F3EB800727A5E91000183DF3 /* UIView+IBDesignable.swift in Sources */,
+				F3EB804327A5F23700183DF3 /* CitiesViewController.swift in Sources */,
 				F3EB7FC227A5E07200183DF3 /* AppDelegate.swift in Sources */,
 				F3EB7FFD27A5E7EA00183DF3 /* HTTPMethod.swift in Sources */,
 				F3EB7FC427A5E07200183DF3 /* SceneDelegate.swift in Sources */,
