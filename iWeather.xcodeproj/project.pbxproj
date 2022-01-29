@@ -10,23 +10,13 @@
 		F3EB7FC227A5E07200183DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FC127A5E07200183DF3 /* AppDelegate.swift */; };
 		F3EB7FC427A5E07200183DF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FC327A5E07200183DF3 /* SceneDelegate.swift */; };
 		F3EB7FC627A5E07200183DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FC527A5E07200183DF3 /* ViewController.swift */; };
-		F3EB7FC927A5E07200183DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EB7FC727A5E07200183DF3 /* Main.storyboard */; };
 		F3EB7FCB27A5E07300183DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EB7FCA27A5E07300183DF3 /* Assets.xcassets */; };
 		F3EB7FCE27A5E07300183DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EB7FCC27A5E07300183DF3 /* LaunchScreen.storyboard */; };
 		F3EB7FD927A5E07300183DF3 /* iWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FD827A5E07300183DF3 /* iWeatherTests.swift */; };
-		F3EB7FE327A5E07300183DF3 /* iWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FE227A5E07300183DF3 /* iWeatherUITests.swift */; };
-		F3EB7FE527A5E07300183DF3 /* iWeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FE427A5E07300183DF3 /* iWeatherUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		F3EB7FD527A5E07300183DF3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F3EB7FB627A5E07200183DF3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3EB7FBD27A5E07200183DF3;
-			remoteInfo = iWeather;
-		};
-		F3EB7FDF27A5E07300183DF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F3EB7FB627A5E07200183DF3 /* Project object */;
 			proxyType = 1;
@@ -40,15 +30,11 @@
 		F3EB7FC127A5E07200183DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EB7FC327A5E07200183DF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F3EB7FC527A5E07200183DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3EB7FC827A5E07200183DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3EB7FCA27A5E07300183DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3EB7FCD27A5E07300183DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EB7FCF27A5E07300183DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3EB7FD427A5E07300183DF3 /* iWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EB7FD827A5E07300183DF3 /* iWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWeatherTests.swift; sourceTree = "<group>"; };
-		F3EB7FDE27A5E07300183DF3 /* iWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3EB7FE227A5E07300183DF3 /* iWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWeatherUITests.swift; sourceTree = "<group>"; };
-		F3EB7FE427A5E07300183DF3 /* iWeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iWeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3EB7FDB27A5E07300183DF3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +60,6 @@
 			children = (
 				F3EB7FC027A5E07200183DF3 /* iWeather */,
 				F3EB7FD727A5E07300183DF3 /* iWeatherTests */,
-				F3EB7FE127A5E07300183DF3 /* iWeatherUITests */,
 				F3EB7FBF27A5E07200183DF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +69,6 @@
 			children = (
 				F3EB7FBE27A5E07200183DF3 /* iWeather.app */,
 				F3EB7FD427A5E07300183DF3 /* iWeatherTests.xctest */,
-				F3EB7FDE27A5E07300183DF3 /* iWeatherUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +79,6 @@
 				F3EB7FC127A5E07200183DF3 /* AppDelegate.swift */,
 				F3EB7FC327A5E07200183DF3 /* SceneDelegate.swift */,
 				F3EB7FC527A5E07200183DF3 /* ViewController.swift */,
-				F3EB7FC727A5E07200183DF3 /* Main.storyboard */,
 				F3EB7FCA27A5E07300183DF3 /* Assets.xcassets */,
 				F3EB7FCC27A5E07300183DF3 /* LaunchScreen.storyboard */,
 				F3EB7FCF27A5E07300183DF3 /* Info.plist */,
@@ -116,15 +92,6 @@
 				F3EB7FD827A5E07300183DF3 /* iWeatherTests.swift */,
 			);
 			path = iWeatherTests;
-			sourceTree = "<group>";
-		};
-		F3EB7FE127A5E07300183DF3 /* iWeatherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F3EB7FE227A5E07300183DF3 /* iWeatherUITests.swift */,
-				F3EB7FE427A5E07300183DF3 /* iWeatherUITestsLaunchTests.swift */,
-			);
-			path = iWeatherUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +132,6 @@
 			productReference = F3EB7FD427A5E07300183DF3 /* iWeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F3EB7FDD27A5E07300183DF3 /* iWeatherUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F3EB7FEE27A5E07300183DF3 /* Build configuration list for PBXNativeTarget "iWeatherUITests" */;
-			buildPhases = (
-				F3EB7FDA27A5E07300183DF3 /* Sources */,
-				F3EB7FDB27A5E07300183DF3 /* Frameworks */,
-				F3EB7FDC27A5E07300183DF3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F3EB7FE027A5E07300183DF3 /* PBXTargetDependency */,
-			);
-			name = iWeatherUITests;
-			productName = iWeatherUITests;
-			productReference = F3EB7FDE27A5E07300183DF3 /* iWeatherUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +146,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					F3EB7FD327A5E07300183DF3 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = F3EB7FBD27A5E07200183DF3;
-					};
-					F3EB7FDD27A5E07300183DF3 = {
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = F3EB7FBD27A5E07200183DF3;
 					};
@@ -221,7 +166,6 @@
 			targets = (
 				F3EB7FBD27A5E07200183DF3 /* iWeather */,
 				F3EB7FD327A5E07300183DF3 /* iWeatherTests */,
-				F3EB7FDD27A5E07300183DF3 /* iWeatherUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,18 +177,10 @@
 			files = (
 				F3EB7FCE27A5E07300183DF3 /* LaunchScreen.storyboard in Resources */,
 				F3EB7FCB27A5E07300183DF3 /* Assets.xcassets in Resources */,
-				F3EB7FC927A5E07200183DF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F3EB7FD227A5E07300183DF3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3EB7FDC27A5E07300183DF3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3EB7FDA27A5E07300183DF3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F3EB7FE527A5E07300183DF3 /* iWeatherUITestsLaunchTests.swift in Sources */,
-				F3EB7FE327A5E07300183DF3 /* iWeatherUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,22 +216,9 @@
 			target = F3EB7FBD27A5E07200183DF3 /* iWeather */;
 			targetProxy = F3EB7FD527A5E07300183DF3 /* PBXContainerItemProxy */;
 		};
-		F3EB7FE027A5E07300183DF3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F3EB7FBD27A5E07200183DF3 /* iWeather */;
-			targetProxy = F3EB7FDF27A5E07300183DF3 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F3EB7FC727A5E07200183DF3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F3EB7FC827A5E07200183DF3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F3EB7FCC27A5E07300183DF3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -367,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -494,7 +408,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mostafa-shuman.iWeatherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,7 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mostafa-shuman.iWeatherTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -521,40 +435,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iWeather.app/iWeather";
-			};
-			name = Release;
-		};
-		F3EB7FEF27A5E07300183DF3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mostafa-shuman.iWeatherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iWeather;
-			};
-			name = Debug;
-		};
-		F3EB7FF027A5E07300183DF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mostafa-shuman.iWeatherUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = iWeather;
 			};
 			name = Release;
 		};
@@ -584,15 +464,6 @@
 			buildConfigurations = (
 				F3EB7FEC27A5E07300183DF3 /* Debug */,
 				F3EB7FED27A5E07300183DF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F3EB7FEE27A5E07300183DF3 /* Build configuration list for PBXNativeTarget "iWeatherUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3EB7FEF27A5E07300183DF3 /* Debug */,
-				F3EB7FF027A5E07300183DF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
