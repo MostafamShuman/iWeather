@@ -24,6 +24,9 @@
 		F3EB800C27A5E94D00183DF3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB800B27A5E94D00183DF3 /* AppConstants.swift */; };
 		F3EB801127A5E98200183DF3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3EB801327A5E98200183DF3 /* Localizable.strings */; };
 		F3EB801627A5EB0A00183DF3 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB801527A5EB0A00183DF3 /* City.swift */; };
+		F3EB801A27A5EB9F00183DF3 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB801927A5EB9F00183DF3 /* RequestBuilder.swift */; };
+		F3EB801C27A5EBAA00183DF3 /* CityRemoteDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB801B27A5EBAA00183DF3 /* CityRemoteDatasource.swift */; };
+		F3EB801E27A5EBB600183DF3 /* CityLocalDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB801D27A5EBB600183DF3 /* CityLocalDatasource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		F3EB800B27A5E94D00183DF3 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		F3EB801227A5E98200183DF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F3EB801527A5EB0A00183DF3 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		F3EB801927A5EB9F00183DF3 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		F3EB801B27A5EBAA00183DF3 /* CityRemoteDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRemoteDatasource.swift; sourceTree = "<group>"; };
+		F3EB801D27A5EBB600183DF3 /* CityLocalDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityLocalDatasource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +150,7 @@
 		F3EB7FF327A5E73100183DF3 /* Data Layer */ = {
 			isa = PBXGroup;
 			children = (
+				F3EB801727A5EB8300183DF3 /* Services */,
 				F3EB801427A5EAF700183DF3 /* Model */,
 			);
 			path = "Data Layer";
@@ -229,6 +236,24 @@
 				F3EB801527A5EB0A00183DF3 /* City.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F3EB801727A5EB8300183DF3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB801827A5EB9100183DF3 /* Weather City Service */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F3EB801827A5EB9100183DF3 /* Weather City Service */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB801927A5EB9F00183DF3 /* RequestBuilder.swift */,
+				F3EB801B27A5EBAA00183DF3 /* CityRemoteDatasource.swift */,
+				F3EB801D27A5EBB600183DF3 /* CityLocalDatasource.swift */,
+			);
+			path = "Weather City Service";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,9 +357,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3EB801E27A5EBB600183DF3 /* CityLocalDatasource.swift in Sources */,
 				F3EB7FC627A5E07200183DF3 /* ViewController.swift in Sources */,
 				F3EB800927A5E91A00183DF3 /* Decodable+Parse.swift in Sources */,
 				F3EB801627A5EB0A00183DF3 /* City.swift in Sources */,
+				F3EB801A27A5EB9F00183DF3 /* RequestBuilder.swift in Sources */,
 				F3EB7FFF27A5E7F600183DF3 /* NetworkError.swift in Sources */,
 				F3EB800C27A5E94D00183DF3 /* AppConstants.swift in Sources */,
 				F3EB800727A5E91000183DF3 /* UIView+IBDesignable.swift in Sources */,
@@ -342,6 +369,7 @@
 				F3EB7FFD27A5E7EA00183DF3 /* HTTPMethod.swift in Sources */,
 				F3EB7FC427A5E07200183DF3 /* SceneDelegate.swift in Sources */,
 				F3EB800527A5E90400183DF3 /* String+Localize.swift in Sources */,
+				F3EB801C27A5EBAA00183DF3 /* CityRemoteDatasource.swift in Sources */,
 				F3EB7FF927A5E7D200183DF3 /* APIClient.swift in Sources */,
 				F3EB7FFB27A5E7DE00183DF3 /* Endpoint.swift in Sources */,
 			);
