@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  iWeather
+
+  Created by Mostafa Shuman on 29/01/2022.
+  
+*/
+
+// Landing Screen
+
+"landing_screen_title_label" = "What's new\nin weather!";
+"landing_screen_get_started_btn" = "Get Started!";
+"landing_screen_today_weather" = "Today Weather";
+// Generic
+"alert_generic_error" = "Somthing went Wrong\nPlease try again!";
+
