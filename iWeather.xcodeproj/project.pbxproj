@@ -34,6 +34,7 @@
 		F3EB802A27A5ED1C00183DF3 /* city_2459115.json in Resources */ = {isa = PBXBuildFile; fileRef = F3EB802227A5ECC500183DF3 /* city_2459115.json */; };
 		F3EB802B27A5ED1C00183DF3 /* city_1118370.json in Resources */ = {isa = PBXBuildFile; fileRef = F3EB802427A5ECD600183DF3 /* city_1118370.json */; };
 		F3EB802D27A5ED3800183DF3 /* CityRemoteDatasourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB802C27A5ED3800183DF3 /* CityRemoteDatasourceTests.swift */; };
+		F3EB803127A5EDE500183DF3 /* CitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB803027A5EDE500183DF3 /* CitiesRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		F3EB802427A5ECD600183DF3 /* city_1118370.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = city_1118370.json; sourceTree = "<group>"; };
 		F3EB802727A5ED1500183DF3 /* APIClientMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientMocks.swift; sourceTree = "<group>"; };
 		F3EB802C27A5ED3800183DF3 /* CityRemoteDatasourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRemoteDatasourceTests.swift; sourceTree = "<group>"; };
+		F3EB803027A5EDE500183DF3 /* CitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 		F3EB7FF327A5E73100183DF3 /* Data Layer */ = {
 			isa = PBXGroup;
 			children = (
+				F3EB802E27A5EDC900183DF3 /* Repositories */,
 				F3EB801727A5EB8300183DF3 /* Services */,
 				F3EB801427A5EAF700183DF3 /* Model */,
 			);
@@ -287,6 +290,22 @@
 			path = Mocks;
 			sourceTree = "<group>";
 		};
+		F3EB802E27A5EDC900183DF3 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB802F27A5EDD800183DF3 /* Weather City Repository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F3EB802F27A5EDD800183DF3 /* Weather City Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB803027A5EDE500183DF3 /* CitiesRepository.swift */,
+			);
+			path = "Weather City Repository";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -396,6 +415,7 @@
 			files = (
 				F3EB801E27A5EBB600183DF3 /* CityLocalDatasource.swift in Sources */,
 				F3EB7FC627A5E07200183DF3 /* ViewController.swift in Sources */,
+				F3EB803127A5EDE500183DF3 /* CitiesRepository.swift in Sources */,
 				F3EB800927A5E91A00183DF3 /* Decodable+Parse.swift in Sources */,
 				F3EB801627A5EB0A00183DF3 /* City.swift in Sources */,
 				F3EB801A27A5EB9F00183DF3 /* RequestBuilder.swift in Sources */,
