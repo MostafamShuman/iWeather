@@ -36,6 +36,7 @@
 		F3EB802D27A5ED3800183DF3 /* CityRemoteDatasourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB802C27A5ED3800183DF3 /* CityRemoteDatasourceTests.swift */; };
 		F3EB803127A5EDE500183DF3 /* CitiesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB803027A5EDE500183DF3 /* CitiesRepository.swift */; };
 		F3EB803427A5EF9F00183DF3 /* CityUsecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB803327A5EF9F00183DF3 /* CityUsecase.swift */; };
+		F3EB803727A5F04F00183DF3 /* UICity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB803627A5F04F00183DF3 /* UICity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		F3EB802C27A5ED3800183DF3 /* CityRemoteDatasourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityRemoteDatasourceTests.swift; sourceTree = "<group>"; };
 		F3EB803027A5EDE500183DF3 /* CitiesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesRepository.swift; sourceTree = "<group>"; };
 		F3EB803327A5EF9F00183DF3 /* CityUsecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityUsecase.swift; sourceTree = "<group>"; };
+		F3EB803627A5F04F00183DF3 /* UICity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 		F3EB7FF527A5E75000183DF3 /* Presenatation Layer */ = {
 			isa = PBXGroup;
 			children = (
+				F3EB803527A5F03800183DF3 /* UI Models */,
 			);
 			path = "Presenatation Layer";
 			sourceTree = "<group>";
@@ -317,6 +320,14 @@
 			path = Usecases;
 			sourceTree = "<group>";
 		};
+		F3EB803527A5F03800183DF3 /* UI Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB803627A5F04F00183DF3 /* UICity.swift */,
+			);
+			path = "UI Models";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -428,6 +439,7 @@
 				F3EB7FC627A5E07200183DF3 /* ViewController.swift in Sources */,
 				F3EB803427A5EF9F00183DF3 /* CityUsecase.swift in Sources */,
 				F3EB803127A5EDE500183DF3 /* CitiesRepository.swift in Sources */,
+				F3EB803727A5F04F00183DF3 /* UICity.swift in Sources */,
 				F3EB800927A5E91A00183DF3 /* Decodable+Parse.swift in Sources */,
 				F3EB801627A5EB0A00183DF3 /* City.swift in Sources */,
 				F3EB801A27A5EB9F00183DF3 /* RequestBuilder.swift in Sources */,
