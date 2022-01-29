@@ -1,0 +1,165 @@
+{
+    "consolidated_weather": [
+        {
+            "id": 6149756985278464,
+            "weather_state_name": "Heavy Cloud",
+            "weather_state_abbr": "hc",
+            "wind_direction_compass": "N",
+            "created": "2022-01-29T13:03:49.045711Z",
+            "applicable_date": "2022-01-30",
+            "min_temp": 1.8,
+            "max_temp": 8.11,
+            "the_temp": 6.695,
+            "wind_speed": 5.5737730080728545,
+            "wind_direction": 358.80949084127553,
+            "air_pressure": 1014,
+            "humidity": 38,
+            "visibility": 13.864344726795514,
+            "predictability": 71
+        },
+        {
+            "id": 5067905390608384,
+            "weather_state_name": "Light Cloud",
+            "weather_state_abbr": "lc",
+            "wind_direction_compass": "NNW",
+            "created": "2022-01-29T13:03:52.363612Z",
+            "applicable_date": "2022-01-31",
+            "min_temp": 2.26,
+            "max_temp": 8.695,
+            "the_temp": 7.755,
+            "wind_speed": 9.976880589342242,
+            "wind_direction": 341.4995424380018,
+            "air_pressure": 1015,
+            "humidity": 29,
+            "visibility": 15.283556529865585,
+            "predictability": 70
+        },
+        {
+            "id": 6213968155639808,
+            "weather_state_name": "Light Cloud",
+            "weather_state_abbr": "lc",
+            "wind_direction_compass": "NNW",
+            "created": "2022-01-29T13:03:55.082153Z",
+            "applicable_date": "2022-02-01",
+            "min_temp": 1.83,
+            "max_temp": 8.99,
+            "the_temp": 7.6850000000000005,
+            "wind_speed": 4.9312961211352375,
+            "wind_direction": 331.5,
+            "air_pressure": 1016,
+            "humidity": 38,
+            "visibility": 15.084407062753519,
+            "predictability": 70
+        },
+        {
+            "id": 6701171763838976,
+            "weather_state_name": "Clear",
+            "weather_state_abbr": "c",
+            "wind_direction_compass": "NNW",
+            "created": "2022-01-29T13:03:58.163603Z",
+            "applicable_date": "2022-02-02",
+            "min_temp": 3.025,
+            "max_temp": 9.855,
+            "the_temp": 8.969999999999999,
+            "wind_speed": 10.062509560075824,
+            "wind_direction": 328.685241783488,
+            "air_pressure": 1017,
+            "humidity": 27,
+            "visibility": 14.966035850632307,
+            "predictability": 68
+        },
+        {
+            "id": 5955312474390528,
+            "weather_state_name": "Heavy Cloud",
+            "weather_state_abbr": "hc",
+            "wind_direction_compass": "N",
+            "created": "2022-01-29T13:04:01.392218Z",
+            "applicable_date": "2022-02-03",
+            "min_temp": 2.865,
+            "max_temp": 9.165,
+            "the_temp": 7.07,
+            "wind_speed": 3.5612785333651473,
+            "wind_direction": 356.5,
+            "air_pressure": 1017,
+            "humidity": 35,
+            "visibility": 9.999726596675416,
+            "predictability": 71
+        },
+        {
+            "id": 4569715591610368,
+            "weather_state_name": "Heavy Cloud",
+            "weather_state_abbr": "hc",
+            "wind_direction_compass": "N",
+            "created": "2022-01-29T13:04:04.146465Z",
+            "applicable_date": "2022-02-04",
+            "min_temp": 2.745,
+            "max_temp": 9.195,
+            "the_temp": 7.93,
+            "wind_speed": 5.093863437524855,
+            "wind_direction": 0.5000000000000085,
+            "air_pressure": 1014,
+            "humidity": 38,
+            "visibility": 9.999726596675416,
+            "predictability": 71
+        }
+    ],
+    "time": "2022-01-30T00:04:21.266290+09:00",
+    "sun_rise": "2022-01-30T06:42:12.436155+09:00",
+    "sun_set": "2022-01-30T17:05:57.628854+09:00",
+    "timezone_name": "JST",
+    "parent": {
+        "title": "Japan",
+        "location_type": "Country",
+        "woeid": 23424856,
+        "latt_long": "37.487598,139.838287"
+    },
+    "sources": [
+        {
+            "title": "BBC",
+            "slug": "bbc",
+            "url": "http://www.bbc.co.uk/weather/",
+            "crawl_rate": 360
+        },
+        {
+            "title": "Forecast.io",
+            "slug": "forecast-io",
+            "url": "http://forecast.io/",
+            "crawl_rate": 480
+        },
+        {
+            "title": "HAMweather",
+            "slug": "hamweather",
+            "url": "http://www.hamweather.com/",
+            "crawl_rate": 360
+        },
+        {
+            "title": "Met Office",
+            "slug": "met-office",
+            "url": "http://www.metoffice.gov.uk/",
+            "crawl_rate": 180
+        },
+        {
+            "title": "OpenWeatherMap",
+            "slug": "openweathermap",
+            "url": "http://openweathermap.org/",
+            "crawl_rate": 360
+        },
+        {
+            "title": "Weather Underground",
+            "slug": "wunderground",
+            "url": "https://www.wunderground.com/?apiref=fc30dc3cd224e19b",
+            "crawl_rate": 720
+        },
+        {
+            "title": "World Weather Online",
+            "slug": "world-weather-online",
+            "url": "http://www.worldweatheronline.com/",
+            "crawl_rate": 360
+        }
+    ],
+    "title": "Tokyo",
+    "location_type": "City",
+    "woeid": 1118370,
+    "latt_long": "35.670479,139.740921",
+    "timezone": "Asia/Tokyo"
+}
