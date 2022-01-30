@@ -49,7 +49,7 @@
 ## Snapshots
 <br>
 <p float="left">
-  <img src="README Files/scr_sht_1.png" width="180" />&nbsp;&nbsp;
+  <img src="README Files/scr_sht_0.png" width="180" />&nbsp;&nbsp;
   <img src="README Files/scr_sht_2.png" width="180" />&nbsp;&nbsp;
   <img src="README Files/scr_sht_3.png" width="180" />&nbsp;&nbsp;
   <img src="README Files/scr_sht_4.png" width="180" />
