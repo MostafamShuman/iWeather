@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F3EB7FC227A5E07200183DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FC127A5E07200183DF3 /* AppDelegate.swift */; };
 		F3EB7FC427A5E07200183DF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FC327A5E07200183DF3 /* SceneDelegate.swift */; };
-		F3EB7FC627A5E07200183DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FC527A5E07200183DF3 /* ViewController.swift */; };
 		F3EB7FCB27A5E07300183DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3EB7FCA27A5E07300183DF3 /* Assets.xcassets */; };
 		F3EB7FCE27A5E07300183DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3EB7FCC27A5E07300183DF3 /* LaunchScreen.storyboard */; };
 		F3EB7FF927A5E7D200183DF3 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EB7FF827A5E7D200183DF3 /* APIClient.swift */; };
@@ -73,7 +72,6 @@
 		F3EB7FBE27A5E07200183DF3 /* iWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EB7FC127A5E07200183DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EB7FC327A5E07200183DF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3EB7FC527A5E07200183DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3EB7FCA27A5E07300183DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3EB7FCD27A5E07300183DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3EB7FCF27A5E07300183DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -161,14 +159,12 @@
 		F3EB7FC027A5E07200183DF3 /* iWeather */ = {
 			isa = PBXGroup;
 			children = (
-				F3EB7FF527A5E75000183DF3 /* Presenatation Layer */,
-				F3EB7FF427A5E73D00183DF3 /* Domain Layer */,
-				F3EB7FF327A5E73100183DF3 /* Data Layer */,
-				F3EB7FF227A5E72300183DF3 /* Core Layer */,
-				F3EB7FF627A5E7A500183DF3 /* Factory */,
+				F3EB7FF527A5E75000183DF3 /* Presenatation */,
+				F3EB806627A6116800183DF3 /* Business Logic */,
+				F3EB7FF227A5E72300183DF3 /* Core */,
+				F3EB7FF627A5E7A500183DF3 /* Factories */,
 				F3EB7FC127A5E07200183DF3 /* AppDelegate.swift */,
 				F3EB7FC327A5E07200183DF3 /* SceneDelegate.swift */,
-				F3EB7FC527A5E07200183DF3 /* ViewController.swift */,
 				F3EB7FCA27A5E07300183DF3 /* Assets.xcassets */,
 				F3EB7FCC27A5E07300183DF3 /* LaunchScreen.storyboard */,
 				F3EB7FCF27A5E07300183DF3 /* Info.plist */,
@@ -196,12 +192,12 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		F3EB7FF227A5E72300183DF3 /* Core Layer */ = {
+		F3EB7FF227A5E72300183DF3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				F3EB7FF727A5E7C400183DF3 /* Network */,
 			);
-			path = "Core Layer";
+			path = Core;
 			sourceTree = "<group>";
 		};
 		F3EB7FF327A5E73100183DF3 /* Data Layer */ = {
@@ -217,22 +213,21 @@
 		F3EB7FF427A5E73D00183DF3 /* Domain Layer */ = {
 			isa = PBXGroup;
 			children = (
-				F3EB7FF127A5E71D00183DF3 /* Helper */,
 				F3EB803227A5EF7D00183DF3 /* Usecases */,
 			);
 			path = "Domain Layer";
 			sourceTree = "<group>";
 		};
-		F3EB7FF527A5E75000183DF3 /* Presenatation Layer */ = {
+		F3EB7FF527A5E75000183DF3 /* Presenatation */ = {
 			isa = PBXGroup;
 			children = (
 				F3EB803827A5F0FD00183DF3 /* Scenes */,
 				F3EB803527A5F03800183DF3 /* UI Models */,
 			);
-			path = "Presenatation Layer";
+			path = Presenatation;
 			sourceTree = "<group>";
 		};
-		F3EB7FF627A5E7A500183DF3 /* Factory */ = {
+		F3EB7FF627A5E7A500183DF3 /* Factories */ = {
 			isa = PBXGroup;
 			children = (
 				F3EB805A27A5F68F00183DF3 /* Factory.swift */,
@@ -241,7 +236,7 @@
 				F3EB806027A5F6CE00183DF3 /* CityDetailsFactory.swift */,
 				F3EB806227A5F6E000183DF3 /* DayDetailsFactory.swift */,
 			);
-			path = Factory;
+			path = Factories;
 			sourceTree = "<group>";
 		};
 		F3EB7FF727A5E7C400183DF3 /* Network */ = {
@@ -436,6 +431,16 @@
 			path = "Day Details";
 			sourceTree = "<group>";
 		};
+		F3EB806627A6116800183DF3 /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				F3EB7FF427A5E73D00183DF3 /* Domain Layer */,
+				F3EB7FF327A5E73100183DF3 /* Data Layer */,
+				F3EB7FF127A5E71D00183DF3 /* Helper */,
+			);
+			path = "Business Logic";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -550,7 +555,6 @@
 			files = (
 				F3EB804F27A5F42E00183DF3 /* CityDetailsViewController.swift in Sources */,
 				F3EB801E27A5EBB600183DF3 /* CityLocalDatasource.swift in Sources */,
-				F3EB7FC627A5E07200183DF3 /* ViewController.swift in Sources */,
 				F3EB804A27A5F36B00183DF3 /* CityItemTableViewCell.swift in Sources */,
 				F3EB805627A5F57900183DF3 /* DayDetailsViewController.swift in Sources */,
 				F3EB803427A5EF9F00183DF3 /* CityUsecase.swift in Sources */,

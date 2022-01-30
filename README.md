@@ -28,9 +28,12 @@
 
 ## Environment
 <ul> 
-<li> macOS Monterey v-12.1</li>
-<li> Developed using Xcode 13.2.1.</li> 
-<li> Git Flow </li>
+<li> <B>macOS Monterey v-12.1</B></li>
+<li> <B>Developed using Xcode 13.2.1</B></li> 
+<li> <B>Git Flow</B></li>
+<li> <B>Supported Devices</B>: iPhone.
+<li> <B>Minimum Deployment Target</B>: iOS 13:0+
+<li> <B>Device Orientation</B>: Portrait.
 </ul>
 
 <!-- Wireframe -->
@@ -46,25 +49,30 @@
 ## Snapshots
 <br>
 <p float="left">
-  <img src="README Files/scr_sht_1.png" width="200" />&nbsp;&nbsp;
-  <img src="README Files/scr_sht_2.png" width="200" />&nbsp;&nbsp;
-  <img src="README Files/scr_sht_3.png" width="200" />&nbsp;&nbsp;
-  <img src="README Files/scr_sht_4.png" width="200" />
+  <img src="README Files/scr_sht_1.png" width="180" />&nbsp;&nbsp;
+  <img src="README Files/scr_sht_2.png" width="180" />&nbsp;&nbsp;
+  <img src="README Files/scr_sht_3.png" width="180" />&nbsp;&nbsp;
+  <img src="README Files/scr_sht_4.png" width="180" />
 </p>
 <br>
 <br>
 
 ## Project Structure
-Our app is divided into Five layers
+Our app is divided into Three Component (Core - Business Logic - Presentation)
 <ul>
 <li><B>Core Layer:</B> Contains lower-level features and modules that are necessary for the business logic to function but don't depend on the business of the app.</li>
+<li> <B>Business Logic:</B> that contains...
+<ul>
 <li><B>Data Layer:</B>  Has entities, datasources and repositories. </li>
-<li><B>Domain Layer:</B> Has helper files, extensions and use cases that are used by the presentation layer, in our case, it's consumed by the ViewModel.</li>
+<li><B>Domain Layer:</B> Contains use cases that are used by the presentation layer, in our case, it's consumed by the ViewModel.</li>
+<li><B>Support Files:</B> Contains helper files, extensions, resources and localization files</li>
+</ul>
+</lis>
 <li><B>Presentation Layer:</B> Consists of all UI logic and structures, it basically depends on the domain layer to fetch data and updated it to be consumable and rendered by the view</li>
-<li><B>Factory Layer:</B> Contains creational design pattern which solves the problem of creating product objects without specifying their concrete classes. </li>
+<li><B>Factory:</B> Contains creational design pattern which solves the problem of creating product objects without specifying their concrete classes. </li>
 </ul>
 <br>
-
+<br>
 
  ## Code Structure
 
@@ -78,9 +86,9 @@ Our app is divided into Five layers
  <li><B>Factory: </B>An object that creates a module by linking all the previous components.</li>
  </ul>
 <br>
+<br>
 
 ## Structure Digram
-<br>
 <p float="left">
-  <img src="README Files/digram.png" width="400"/>
+  <center> <img src="README Files/digram.png" width="600" /> </center>
 </p>
